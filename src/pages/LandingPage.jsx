@@ -56,7 +56,6 @@ export default function LandingPage() {
 
         <Reveal delay={50}>
           <section className="mb-8 rounded-3xl border border-jx-green/30 bg-grid-fade p-8 shadow-neon md:p-12">
-          <p className="text-sm uppercase tracking-[0.2em] text-jx-green">Trading Journal SaaS</p>
           <h1 className="mt-2 max-w-4xl text-4xl font-black leading-tight md:text-6xl">
             Trade. Track. Refine.
           </h1>
