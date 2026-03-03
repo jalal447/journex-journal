@@ -1,38 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <linearGradient id="shieldLine" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7DE3FF"/>
-      <stop offset="55%" stop-color="#22C1FF"/>
-      <stop offset="100%" stop-color="#1F7BFF"/>
+    <linearGradient id="goldArrow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D99A21"/>
+      <stop offset="100%" stop-color="#FFF08A"/>
     </linearGradient>
-    <linearGradient id="arrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06B6FF"/>
-      <stop offset="55%" stop-color="#30D158"/>
-      <stop offset="100%" stop-color="#E9FF45"/>
+    <linearGradient id="greenTail" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A3D2A"/>
+      <stop offset="100%" stop-color="#8CEB3B"/>
     </linearGradient>
-    <linearGradient id="cRed" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FF5D5D"/>
-      <stop offset="100%" stop-color="#FF1111"/>
-    </linearGradient>
-    <linearGradient id="cOrange" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFD85E"/>
-      <stop offset="100%" stop-color="#FF6723"/>
-    </linearGradient>
-    <linearGradient id="cYellow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFE760"/>
-      <stop offset="100%" stop-color="#F29D2A"/>
+    <linearGradient id="cGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF28E"/>
+      <stop offset="100%" stop-color="#D89A1E"/>
     </linearGradient>
     <linearGradient id="cGreen" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#66F06B"/>
-      <stop offset="100%" stop-color="#13B84D"/>
+      <stop offset="0%" stop-color="#6CE06A"/>
+      <stop offset="100%" stop-color="#1D8E3B"/>
     </linearGradient>
   </defs>
-  <path d="M128 26C101 45 70 55 38 62v45c0 51 37 91 90 113 53-22 90-62 90-113V62c-32-7-63-17-90-36z"
-        fill="none" stroke="url(#shieldLine)" stroke-width="12"/>
-  <rect x="73" y="95" width="20" height="64" fill="url(#cRed)"/><rect x="80" y="83" width="6" height="84" fill="url(#cRed)"/>
-  <rect x="104" y="77" width="22" height="75" fill="url(#cOrange)"/><rect x="111" y="63" width="7" height="98" fill="url(#cOrange)"/>
-  <rect x="137" y="61" width="24" height="84" fill="url(#cYellow)"/><rect x="145" y="47" width="7" height="101" fill="url(#cYellow)"/>
-  <rect x="172" y="82" width="18" height="58" fill="url(#cGreen)"/><rect x="178" y="68" width="6" height="82" fill="url(#cGreen)"/>
-  <path d="M54 164c19 18 48 25 76 15 20-8 37-21 49-37 8-10 14-20 20-32l11 6-4-27-24 13 10 5c-14 27-30 44-53 56-25 12-56 11-84-1z"
-        fill="url(#arrowGrad)"/>
+  <path d="M42 170c31 20 76 22 117 3 42-20 72-58 90-100l-16-7 43-24-5 49-16-9c-10 22-25 47-44 65-45 44-114 57-169 29z"
+        fill="url(#goldArrow)"/>
+  <path d="M48 179c45 5 86-10 119-40 29-26 43-62 49-92 12 19 15 57-3 95-18 40-54 70-110 79-21-9-39-23-55-42z"
+        fill="url(#greenTail)"/>
+  <rect x="58" y="105" width="20" height="54" fill="url(#cGold)"/><rect x="65" y="93" width="6" height="70" fill="url(#cGold)"/>
+  <rect x="90" y="87" width="22" height="64" fill="url(#cGold)"/><rect x="97" y="75" width="7" height="80" fill="url(#cGold)"/>
+  <rect x="124" y="71" width="24" height="72" fill="url(#cGold)"/><rect x="132" y="59" width="7" height="87" fill="url(#cGold)"/>
+  <rect x="160" y="93" width="18" height="42" fill="url(#cGreen)"/><rect x="166" y="81" width="6" height="56" fill="url(#cGreen)"/>
+  <circle cx="44" cy="133" r="4" fill="#D99A21"/>
 </svg>
+
