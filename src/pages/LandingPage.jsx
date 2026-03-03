@@ -58,10 +58,10 @@ export default function LandingPage() {
           <section className="mb-8 rounded-3xl border border-jx-green/30 bg-grid-fade p-8 shadow-neon md:p-12">
           <p className="text-sm uppercase tracking-[0.2em] text-jx-green">Trading Journal SaaS</p>
           <h1 className="mt-2 max-w-4xl text-4xl font-black leading-tight md:text-6xl">
-            Journal Your Trades. Master Your Edge.
+            Trade. Track. Refine.
           </h1>
           <p className="mt-4 max-w-2xl text-white/75">
-            Built for serious traders who want to convert execution data into consistent growth. Log, review, adapt.
+            Built by a trader, for traders.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link to="/register">
